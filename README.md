@@ -42,7 +42,7 @@ You can fetch data using the following API endpoint: https://fakestoreapi.com/
 4. Provide a DOCS.md file with all the technologies used and how to run the program locally.
 5. Once you have completed the assignment, share the repository URL with us via the [submission form](https://forms.gle/r5ENHoDewE5swP9x7).
 
-- Submission Deadline: Task Submission: 2023/07/21 12:00 AM
+- Submission Deadline: Task Submission: 2023/07/22 11:30 AM
 
 Check out the discussion section of this repo to ask any related queries or doubts.
 Note: The assignment is intended to help you grasp basic concepts. Don't hesitate to ask for any clarifications in the discussion section of this repo. Good luck with your assignment!
