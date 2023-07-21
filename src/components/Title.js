@@ -3,3 +3,4 @@ const Title = ({ txt, size, color, transform }) => {
 };
 
 export default Title;
+//Pankaj Bist
