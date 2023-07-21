@@ -1,0 +1,134 @@
+@import "styles/_variables.scss";
+
+.sidebarContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba($color: $black, $alpha: 0.75);
+  z-index: 1;
+
+  .sidebar {
+    width: 400px;
+    height: 100%;
+    background-color: $white;
+    margin-left: auto;
+    position: relative;
+
+    .header {
+      display: flex;
+      align-items: center;
+      padding: 1rem;
+
+      small {
+        font-weight: 500;
+        text-transform: capitalize;
+      }
+
+      .close {
+        margin-left: auto;
+        background-color: $red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $white;
+        border-radius: $border-radius;
+        cursor: pointer;
+      }
+    }
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+      max-height: 60%;
+    }
+
+    .basketTotal {
+      position: absolute;
+      width: 100%;
+      height: 150px;
+      bottom: 0;
+      padding: 1rem;
+      border-top: 1px solid rgba($color: $dark-gray, $alpha: 0.15);
+
+      .total {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .totalPrice {
+        margin-top: 20px;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+
+        > small {
+          text-transform: uppercase;
+          font-weight: 700;
+        }
+
+        .price {
+          display: flex;
+          align-items: center;
+          font-weight: 700;
+          font-size: 1.25rem;
+        }
+      }
+
+      .confirmBtn {
+        width: 100%;
+        margin-top: 10px;
+        background-color: #019267;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $white;
+        font-family: inherit;
+        font-size: 1.15rem;
+        padding: 0 10px;
+        height: 37px;
+        font-weight: 500;
+        border-radius: $border-radius;
+        cursor: pointer;
+      }
+    }
+
+    .emptyBasket {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0 1rem;
+
+      > img {
+        width: 250px;
+        height: 250px;
+        object-fit: contain;
+        object-position: center;
+      }
+
+      > button {
+        width: 100%;
+        height: 37px;
+        border-radius: $border-radius;
+        background-color: $red;
+        color: $white;
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}

@@ -1,0 +1,53 @@
+@import "styles/_variables.scss";
+
+.bottomNav {
+  background-color: $silver;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  z-index: 1;
+
+  .content {
+    overflow: hidden;
+    height: 100%;
+    overflow-y: auto;
+  }
+
+  .navContainer {
+    padding: 1rem;
+    border-top: 1px solid rgba($color: $dark-gray, $alpha: 0.1);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: inherit;
+    gap: 10px;
+
+    .navItem {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+      flex: 1;
+      color: $black;
+      background-color: rgba($color: $black, $alpha: 0.09);
+      padding: 7px;
+      border-radius: $border-radius;
+      cursor: pointer;
+    }
+  }
+}
+
+.fullHeight {
+  height: 100%;
+}
+
+.removeHeight {
+  height: unset;
+  height: 50px;
+}

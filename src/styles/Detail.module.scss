@@ -1,0 +1,139 @@
+@import "styles/_variables.scss";
+
+.detail {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+
+  .content {
+    width: 768px;
+    margin-top: 1rem;
+
+    .top {
+      display: flex;
+      width: 100%;
+
+      .img {
+        min-width: 300px;
+        max-width: 300px;
+        height: 300px;
+        padding: 10px;
+        border: 1px solid rgba($color: $dark-gray, $alpha: 0.1);
+        border-radius: $border-radius;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+
+      .info {
+        padding-left: 10px;
+        width: 100%;
+
+        .title {
+          color: $dark-gray;
+        }
+
+        .category {
+          margin-top: 10px;
+          font-weight: 500;
+        }
+
+        .rating {
+          margin-top: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+
+          .stars {
+            display: flex;
+            gap: 2px;
+          }
+        }
+
+        .price {
+          display: flex;
+          font-weight: 500;
+          font-size: 1.45rem;
+
+          p {
+            width: 100%;
+            border-radius: $border-radius;
+            color: $black;
+          }
+        }
+
+        .addToBasketAndQuantity {
+          display: inline-flex;
+          align-items: center;
+          margin-top: 10px;
+
+          .addToBasket {
+            padding: 0 10px;
+            flex: 1;
+            height: 37px;
+            border-radius: $border-radius;
+            text-transform: uppercase;
+            font-family: inherit;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            transition: all 0.5s;
+            color: $white;
+            background-color: rgba($color: $red, $alpha: 0.8);
+          }
+
+          .quantityBox {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+
+    .bottom {
+      margin-top: 30px;
+
+      .desc {
+        font-size: 0.95rem;
+        font-weight: 400;
+        border-top: 1px solid rgba($color: $dark-gray, $alpha: 0.1);
+        padding-top: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .detail {
+    .content {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .detail {
+    .content {
+      .top {
+        flex-direction: column;
+
+        .img {
+          min-width: 100%;
+        }
+
+        .addToBasketAndQuantity {
+          width: 100%;
+        }
+
+        .info {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
