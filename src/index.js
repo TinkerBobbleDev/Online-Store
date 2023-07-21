@@ -1,3 +1,4 @@
+//Add React.StrictMode and render App component in index.js
 import React from "react";
 import ReactDOM from "react-dom";
 import "styles/index.css";
