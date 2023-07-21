@@ -1,4 +1,4 @@
-// "Add reportWebVitals function for web performance metrics"
+// Add reportWebVitals function for web performance metrics
 
 const reportWebVitals = onPerfEntry => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
