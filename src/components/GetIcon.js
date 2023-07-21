@@ -7,3 +7,4 @@ const GetIcon = ({ icon, size, color }) => {
 };
 
 export default GetIcon;
+//Pankaj Bist
