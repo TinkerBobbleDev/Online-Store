@@ -16,6 +16,7 @@
     "slugify": "^1.6.5",
     "web-vitals": "^2.1.4"
   },
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -23,6 +24,7 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+
     "extends": [
       "react-app",
       "react-app/jest"

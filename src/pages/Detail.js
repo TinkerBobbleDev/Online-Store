@@ -91,3 +91,4 @@ const Detail = () => {
 };
 
 export default Detail;
+//Pankaj Bist
