@@ -49,6 +49,12 @@ You can fetch data using the following API endpoint: https://fakestoreapi.com/
 Check out the discussion section of this repo to ask any related queries or doubts.
 Note: The assignment is intended to help you grasp basic concepts. Don't hesitate to ask for any clarifications in the discussion section of this repo. Good luck with your assignment!
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> a4eaf914f17d4f65f462c72607df69f0b7222185
 # Getting Started with Create React App
 Clone git repository
 ### `https://github.com/Pankajbist/Online-Store.git`
@@ -60,4 +66,8 @@ Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.
+<<<<<<< HEAD
 You may also see any lint errors in the console.
+=======
+You may also see any lint errors in the console.
+>>>>>>> a4eaf914f17d4f65f462c72607df69f0b7222185
