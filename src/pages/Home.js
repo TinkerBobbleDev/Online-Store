@@ -27,7 +27,7 @@ const Home = () => {
           <div className={styles.row}>
             {result.data && (
               <div className={styles.title}>
-                <Title txt="all products" color="#171717" size={22} transform="uppercase" />
+                <Title txt="All products" color="#171717" size={22} transform="uppercase" />
               </div>
             )}
           </div>
@@ -47,4 +47,3 @@ const Home = () => {
 };
 
 export default Home;
-//Pankaj Bist

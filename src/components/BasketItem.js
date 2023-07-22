@@ -44,4 +44,4 @@ const BasketItem = ({ data }) => {
 };
 
 export default BasketItem;
-//Pankaj Bist
+

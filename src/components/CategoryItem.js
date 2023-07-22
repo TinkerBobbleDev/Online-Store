@@ -18,4 +18,4 @@ const CategoryItem = ({ data, setNavIsOpen }) => {
 };
 
 export default CategoryItem;
-//Pankaj Bist
+

@@ -15,4 +15,3 @@ const MobileCategories = ({ setNavIsOpen }) => {
 };
 
 export default MobileCategories;
-//Pankaj Bist

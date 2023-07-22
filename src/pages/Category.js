@@ -41,4 +41,3 @@ const Category = () => {
 };
 
 export default Category;
-//Pankaj Bist

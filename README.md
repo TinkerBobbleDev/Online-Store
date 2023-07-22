@@ -67,3 +67,35 @@ The page will reload when you make changes.
 
 You may also see any lint errors in the console.
 
+**Hurray, Your app is now running on port 3000 in your browser**
+
+## Screenshots
+
+### Landing Page
+
+![](ScreenShots/home.png)
+
+
+
+
+
+### Category Page
+
+![](ScreenShots/categories.png)
+
+on click categories it shows 4 properties thhese are
+### Mens Clothing
+![](ScreenShots/mens.png)
+### Womens Clothing
+![](ScreenShots/womens.png)
+### Jewelery
+![](ScreenShots/jwelery.png)
+### Electronics
+![](ScreenShots/electronics.png)
+### BASKET
+on click basket without add any item 
+### Empty Basket
+![](ScreenShots/basketempty.png)
+if you add any item
+### Basket With Item
+![](ScreenShots/basket.png)

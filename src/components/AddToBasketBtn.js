@@ -43,4 +43,4 @@ const AddToBasketBtn = ({ data: product }) => {
 };
 
 export default AddToBasketBtn;
-//Pankaj Bist
+

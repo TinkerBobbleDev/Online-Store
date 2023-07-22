@@ -15,7 +15,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.logo}>
         <Link to="/">
-          <h2>react store</h2>
+          <h2>Online-Store</h2>
         </Link>
       </div>
       <div className={styles.navContainer}>
@@ -48,4 +48,4 @@ const Header = () => {
 };
 
 export default Header;
-//Pankaj Bist
+

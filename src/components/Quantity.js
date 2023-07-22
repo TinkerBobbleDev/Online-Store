@@ -62,4 +62,3 @@ const Quantity = ({ data }) => {
 };
 
 export default Quantity;
-//Pankaj Bist

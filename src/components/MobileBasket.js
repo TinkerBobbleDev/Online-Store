@@ -43,4 +43,3 @@ const MobileBasket = () => {
 };
 
 export default MobileBasket;
-//Pankaj Bist
