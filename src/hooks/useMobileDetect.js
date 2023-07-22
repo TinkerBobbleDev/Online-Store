@@ -27,3 +27,7 @@ const useMobileDetect = () => {
 };
 
 export default useMobileDetect;
+
+
+
+//this can show in your mobile perfet
