@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Assignment Title: E-commerce Development Task
 
 ## Assignment Description:
