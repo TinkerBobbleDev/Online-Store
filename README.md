@@ -74,7 +74,7 @@ You may also see any lint errors in the console.
 
 ### Landing Page
 
-![](ScreenShots/home.png)
+![](screenshots/home.png)
 
 
 
@@ -82,21 +82,29 @@ You may also see any lint errors in the console.
 
 ### Category Page
 
-![](ScreenShots/categories.png)
+![](screenshots/categories.png)
 
 on click categories it shows 4 properties thhese are
 ### Mens Clothing
-![](ScreenShots/mens.png)
+![](screenshots/mens.png)
 ### Womens Clothing
-![](ScreenShots/womens.png)
+![](screenshots/womens.png)
 ### Jewelery
-![](ScreenShots/jwelery.png)
+![](screenshots/jwelery.png)
 ### Electronics
-![](ScreenShots/electronics.png)
+![](screenshots/electronics.png)
 ### BASKET
 on click basket without add any item 
 ### Empty Basket
-![](ScreenShots/basketempty.png)
+![](screenshots/basketempty.png)
 if you add any item
 ### Basket With Item
-![](ScreenShots/basket.png)
+![](screenshots/basket.png)
+
+## Contact
+Pankaj Bist- pankajbist000@gmail.com
+
+Project Link: [https://github.com/Pankajbist/Online-Store](https://github.com/Pankajbist/Online-Store)
+
+
+### Thank You 
